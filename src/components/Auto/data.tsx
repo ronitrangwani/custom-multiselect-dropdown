@@ -1,4 +1,3 @@
-// data.ts
 import personA from "../../images/personA.jpeg";
 import personB from "../../images/personB.jpeg";
 import personC from "../../images/personC.jpeg";

@@ -18,7 +18,7 @@ const OptionList: React.FC<OptionListProps> = ({ options, onSelect }) => (
         <img src={option.img} alt={option.label} style={{ height: "38px", width: "38px", borderRadius: "50%", padding: "2px 5px" }} />
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
           <span>{option.label}</span>
-          <span style={{ position: "absolute", left: "50%", color: "lightgray" }}>{option.value}</span>
+          <span style={{ position: "absolute", left: "60%", color: "lightgray" , fontSize:"small" }}>{option.value}</span>
         </div>
       </li>
     ))}
